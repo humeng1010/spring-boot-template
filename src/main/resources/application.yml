@@ -1,5 +1,5 @@
 remote:
-  ip: tengxunyun
+  ip: localhost
 
 server:
   port: 9090
@@ -14,7 +14,7 @@ spring:
       driver-class-name: com.mysql.cj.jdbc.Driver
       url: jdbc:mysql://${remote.ip:localhost}:3306/boot_template?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true&autoReconnect=true&rewriteBatchedStatements=true&allowMultiQueries=true
       username: root
-      password: 123456
+      password: 12345678
       # 初始化连接数大小
 #      initial-size: 100
       # 最大连接数
